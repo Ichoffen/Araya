@@ -1,5 +1,5 @@
-import { JSONFileSync, LowSync } from 'lowdb/node';
-import path from 'path';
+import { JSONFileSync } from 'lowdb/node';
+import { LowSync } from 'lowdb';
 import { fileURLToPath } from 'url';
 
 let db;
