@@ -13,8 +13,8 @@ jobs:
 
       - name: Install deps
         working-directory: gpt-desktop-portable
-        run: npm ci
-
+        run: npm install
+      
       - name: Build portable EXE
         working-directory: gpt-desktop-portable
         run: npm run dist
