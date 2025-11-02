@@ -7,7 +7,11 @@
   "build": {
     "appId": "com.motorbuild.gptdesktop",
     "productName": "GPT Desktop Portable",
-    "win": { "target": ["portable"] },
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
     "files": [
       "main.js",
       "preload.js",
