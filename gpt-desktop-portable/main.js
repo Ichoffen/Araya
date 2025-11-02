@@ -6,8 +6,6 @@ import './api/server.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-if (require('electron-squirrel-startup')) app.quit();
-
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 1100,
